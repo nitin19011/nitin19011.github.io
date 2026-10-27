@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e1e1e">
+  <title>Nitin | Software Engineering Portfolio</title>
+  <meta name="description" content="Nitin's software portfolio: Java applications, Python data collection tools and engineering experience. NUS Computer Engineering undergraduate, available June 2027.">
+  <meta property="og:title" content="Nitin | Software Engineering Portfolio">
+  <meta property="og:description" content="Java applications, Python tooling and engineering experience. Available June 2027.">
+  <link rel="canonical" href="https://nitin19011.github.io/">
+  <meta property="og:url" content="https://nitin19011.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://nitin19011.github.io/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<div class="workspace" id="workspace">
+  <header class="titlebar">
+    <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <button class="open-file" id="open-file" aria-haspopup="dialog"><span aria-hidden="true">⌕</span> nitin : portfolio <kbd>Ctrl P</kbd></button>
+    <span class="title-end" aria-hidden="true">&lt;/&gt;</span>
+  </header>
+  <nav class="menubar" aria-label="Portfolio tools">
+    <div class="menu-wrap"><button aria-expanded="false" aria-controls="file-menu" class="menu-trigger">File</button><div class="dropdown" id="file-menu" hidden><a href="#home">Open home</a><a href="assets/Nitin_Resume.pdf" download>Download résumé <span>↓</span></a><a href="mailto:nitinsaklani18@gmail.com">Email Nitin <span>↗</span></a></div></div>
+    <div class="menu-wrap"><button aria-expanded="false" aria-controls="view-menu" class="menu-trigger">View</button><div class="dropdown" id="view-menu" hidden><button id="toggle-sidebar">Toggle explorer <kbd>Ctrl B</kbd></button><button data-theme-choice="default">Theme: Editor dark</button><button data-theme-choice="tokyo">Theme: Tokyo night</button><button data-theme-choice="light">Theme: Light</button></div></div>
+    <div class="menu-wrap"><button aria-expanded="false" aria-controls="go-menu" class="menu-trigger">Go</button><div class="dropdown" id="go-menu" hidden><a href="#projects">Selected projects</a><a href="#experience">Experience</a><a href="#about">About & education</a><a href="#contact">Contact</a></div></div>
+    <span class="menu-caption">SOFTWARE ENGINEERING PORTFOLIO</span>
+  </nav>
+  <aside class="activity" aria-label="Quick links">
+    <button id="explorer-button" aria-label="Toggle file explorer" aria-expanded="true" title="Toggle file explorer (Ctrl+B)"><svg viewBox="0 0 24 24"><path d="M3 5h6l2 3h10v13H3z"/></svg></button>
+    <button id="quick-open-button" aria-label="Open file navigator" title="Open file (Ctrl+P)"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg></button>
+    <a href="https://github.com/nitin19011" target="_blank" rel="noopener noreferrer" aria-label="Nitin on GitHub" title="GitHub"><svg viewBox="0 0 24 24"><circle cx="6" cy="5" r="3"/><circle cx="6" cy="19" r="3"/><circle cx="18" cy="10" r="3"/><path d="M6 8v8m3-5h4a5 5 0 0 0 5-5"/></svg></a>
+    <a href="assets/Nitin_Resume.pdf" download aria-label="Download résumé PDF" title="Download résumé"><svg viewBox="0 0 24 24"><path d="M14 2H4v20h16V8zm0 0v6h6M12 11v7m-3-3 3 3 3-3"/></svg></a>
+    <a class="activity-bottom" href="#contact" aria-label="Contact Nitin" title="Contact"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 5 10 8L22 5"/></svg></a>
+  </aside>
+  <aside class="explorer" id="explorer" aria-label="File explorer">
+    <div class="explorer-heading">PORTFOLIO <button id="close-explorer" aria-label="Close file explorer">×</button></div>
+    <div class="folder-label"><span aria-hidden="true">⌄</span> NITIN</div>
+    <nav id="file-navigation" aria-label="Portfolio files"></nav>
+    <a class="resume-file" href="assets/Nitin_Resume.pdf" download><span class="file-icon pdf">PDF</span><span>Nitin_Resume.pdf</span><span>↓</span></a>
+    <div class="explorer-note"><span class="dot"></span> Open to software roles<br><span class="muted">Starting June 2027</span></div>
+    <div class="branch"><span aria-hidden="true">⑂</span> main <span class="branch-note">portfolio</span></div>
+  </aside>
+  <div class="editor">
+    <nav class="tabs" id="tabs" aria-label="Open documents"></nav>
+    <div class="breadcrumbs"><span>nitin</span><span aria-hidden="true">›</span><span id="crumb-folder">src</span><span aria-hidden="true">›</span><span id="crumb-file">home.tsx</span></div>
+    <main id="content" tabindex="-1"><section class="pane"><p class="code-comment">// hello world. I'm Nitin.</p><h1>Nitin</h1><p>Computer Engineering undergraduate at NUS, focused on software engineering.</p><p><a href="https://github.com/nitin19011">View my projects on GitHub</a> · <a href="assets/Nitin_Resume.pdf" download>Download résumé</a></p></section></main>
+  </div>
+  <footer class="statusbar"><span class="status-left"><span aria-hidden="true">⑂</span> main <span class="status-extra">Nitin / portfolio</span></span><span class="status-right"><span class="status-extra" id="status-language">TypeScript React</span><span>UTF-8</span><span class="available"><span class="dot"></span> Available Jun 2027</span></span></footer>
+</div>
+<dialog id="file-dialog" aria-labelledby="file-dialog-title"><form method="dialog"><div class="dialog-header"><label id="file-dialog-title" for="file-filter">Go to file</label><button value="close" aria-label="Close file navigator">Esc</button></div><input type="search" id="file-filter" placeholder="Type a filename…" autocomplete="off"><nav id="file-results" aria-label="Matching files"></nav><p class="dialog-hint">↑ ↓ to move · Enter to open · Esc to close</p></form></dialog>
+<div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+<div class="sr-only" role="status" id="announcement"></div>
+<noscript><p class="noscript">Enable JavaScript to browse the document tabs. Your résumé and GitHub links above work without it.</p></noscript>
+</body>
+</html>
