@@ -52,7 +52,7 @@ The editor-style filenames are navigation labels. The implementation itself is v
 
 The draft is functional, but two project contribution details are deliberately marked in the case studies:
 
-- **Milo:** confirm which Python collectors, protocol components, tests, validation UI and model tooling you personally implemented. The project's team context remains explicit.
+- **Milo:** personal contributions were confirmed by Nitin across collection/validation tools, protocols/capture coordination, model-training/export tooling and firmware integration. The team context remains explicit.
 - **Socks:** confirm your additions beyond the provided Duke template.
 
 FitChasers claims are grounded in the contribution document and the merged exercise-management PR. No project adoption, performance or employment achievements have been invented.
@@ -78,3 +78,7 @@ Interactive browser and pixel comparison testing could not be completed in the c
 ## Local Windows editing
 
 Clone this repository using GitHub Desktop into `C:\Users\nitin\OneDrive\NUS\Jobs\Portfolio` (an empty folder). Edit the files there, then commit and Push origin. GitHub Pages deploys the pushed main branch. OneDrive sync alone does not publish website changes. Keep the folder available offline.
+
+## Current positioning
+
+Software engineering, practical problem solving, ownership, rapid learning and team collaboration. Earlier engineering roles remain factual work history rather than the target career identity. Public availability: early 2027, as requested by Nitin. Expected degree completion remains April 2027.
